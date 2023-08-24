@@ -1,0 +1,1 @@
+Lag et program der brukeren skal taste inn et heltall. Programmet skal opplyse om tallet er et partall eller et oddetall.
