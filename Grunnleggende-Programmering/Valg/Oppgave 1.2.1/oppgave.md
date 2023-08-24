@@ -1,0 +1,1 @@
+Lag et program som leser inn ett tall, og skriver ut absoluttverdien til tallet. Du kan ikke bruke funksjonen abs().
