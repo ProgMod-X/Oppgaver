@@ -1,0 +1,1 @@
+Beskriv forskjellen på en for-løkke og en while-løkke. Vis et eksempel på hvordan du kan skrive den ene typen om til den andre.
