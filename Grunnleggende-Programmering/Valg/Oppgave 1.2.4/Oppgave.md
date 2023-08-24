@@ -1,0 +1,1 @@
+Lag et “spill” basert på «sten,saks, papir» (eng.: «Rock-paper-scissors» ) der bruker skriver inn sitt valg og datamaskinen trekker tilfeldig. Brukeren skal få beskjed om hvem som vant (eventuelt uavgjort) og hvorfor.
