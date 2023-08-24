@@ -1,0 +1,1 @@
+Lag et program som multipliserer tallene fra 1 opp til og med et valgt siffer.
