@@ -1,0 +1,1 @@
+Skriv et program som leser inn fornavn og etternavn, lager én streng med fullt navn og skriver denne ut.
