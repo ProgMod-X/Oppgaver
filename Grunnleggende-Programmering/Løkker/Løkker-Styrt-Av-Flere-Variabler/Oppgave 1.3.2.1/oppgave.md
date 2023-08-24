@@ -1,0 +1,1 @@
+Lag et program som summerer tallene fra 0 opp til og med et valgt siffer.
