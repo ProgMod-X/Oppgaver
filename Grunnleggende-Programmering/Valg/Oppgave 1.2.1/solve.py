@@ -8,6 +8,6 @@ def absoluttverdi(number):
 try:
     number = float(input("Skriv inn et tall: "))
     absolute_value = absoluttverdi(number)
-    print(f"Absoluttverdien av {number} er {absolute_value}.")
+    print(f"Absoluttverdien av {number} er {absolute_value}")
 except ValueError:
     print("Ugyldig inntasting. Skriv inn et gyldig tall.")
