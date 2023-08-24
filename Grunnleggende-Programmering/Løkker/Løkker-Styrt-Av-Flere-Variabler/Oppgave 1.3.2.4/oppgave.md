@@ -1,0 +1,1 @@
+Vi starter med tallet 1. Bruk en løkke til å bestemme hvor mange ganger vi må doble tallet for det skal bli større enn 4000. Hva er tallet da?
