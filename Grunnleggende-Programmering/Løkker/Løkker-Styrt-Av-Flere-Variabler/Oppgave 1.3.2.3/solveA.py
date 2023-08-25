@@ -1,4 +1,3 @@
-"""
 n = int(input("Skriv inn en verdi for n: "))
 
 sum = 0
@@ -9,14 +8,4 @@ for i in range(1, n + 1):
     sum += term
 
 # Skriv ut resultatet
-print(sum)
-"""
-
-n = int(input("Skriv inn en verdi for n: "))
-sum = 1
-
-for i in range(1, n + 1):
-    term = 2 * i + 1
-    sum *= term
-
 print(sum)
