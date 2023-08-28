@@ -1,4 +1,3 @@
-# (Project Euler)[https://projecteuler.net/archives
-]
+# [Project Euler](https://projecteuler.net/archives)
 
 🧠 Utfordrende programmeringsoppgaver
