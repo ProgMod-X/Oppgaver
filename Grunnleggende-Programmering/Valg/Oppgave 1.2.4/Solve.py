@@ -2,6 +2,7 @@ import random
 
 valg = ["stein", "saks", "papir"]
 
+
 while True:
     try:
         user_choice = input("stein, saks, papir?\n")
@@ -19,10 +20,8 @@ while True:
             print("System vant, du valgte", valg[user_choice], "system valgte", valg[system_choice])
         elif determinator == 2:
             print("Du vant, du valgte", valg[user_choice], "system valgte", valg[system_choice])
-        elif determinator == -1:
-            print("Du vant, du valgte", valg[user_choice], "system valgte", valg[system_choice])
-        elif determinator == -2:
-            print("System vant, du valgte", valg[user_choice], "system valgte", valg[system_choice])
+        else:
+            print("Error")
         
         break
 
