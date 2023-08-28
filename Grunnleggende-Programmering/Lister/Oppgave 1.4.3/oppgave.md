@@ -1,0 +1,1 @@
+Lag et program som skriver ut et søylediagram basert på en liste med heltall. Programmet skal fungere uavhengig av antall elemeter i listen. Med verdiene `{ 3, 4, 6, 6, 1, 3, 3 }´ skal utskriften se tilnærmet lik ut som på bildet.
