@@ -26,4 +26,4 @@ while True:
         break
 
     except ValueError:
-        print("Gyldige input er 'stein', 'saks', 'sapir'")
+        print("Gyldige input er 'stein', 'saks', 'papir'")
