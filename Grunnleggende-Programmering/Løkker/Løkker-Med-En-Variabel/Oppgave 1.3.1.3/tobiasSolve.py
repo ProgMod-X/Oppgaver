@@ -13,7 +13,7 @@ print("------------------------------")
 
 # Med en for-løkke kan vi gjøre dette med en innebygd variabel
 
-for i in range(11): # Merk at "in range" er eksklusiv, og inkluderer ikke det siste tallet, altså fungerer denne koden som "while i < 11:"
+for i in range(1, 11): # Merk at "in range" er eksklusiv, og inkluderer ikke det siste tallet, altså fungerer denne koden som "while i < 11:"
     print(i)
 
 print("------------------------------")  
