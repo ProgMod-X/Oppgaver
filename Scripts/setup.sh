@@ -4,7 +4,7 @@
 
 # Set up the repository
 git clone https://github.com/ProgMod-X/Oppgaver.git
-cd /Oppgaver
+cd Oppgaver/
 
 # Set up the environment
 python3 -m venv venv
@@ -12,10 +12,11 @@ source venv/bin/activate
 pip install openai nbformat
 
 # Set up the script directory
-cd /Scripts
+cd /home/ctf/Oppgaver/Scripts/
 
+pwd
 # Add execution permissions
-chmod +x AutomateWorkflow.sh
+chmod +x /home/ctf/Oppgaver/Scripts/AutomateWorkflow.sh
 
 # Set up the cron job
 echo "Kjør AutomateWorkflow.sh i home :)"

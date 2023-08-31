@@ -3,19 +3,15 @@
 # Set your OpenAI API key
 OPENAI_API_KEY="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"
 
-# Path to your repository and scripts
-REPO_PATH="Oppgaver"
-SCRIPTS_PATH="Oppgaver/Scripts"
+git config --global user.email "auto@generated.documentation"
+git config --global user.name "Documentation Bot"
 
 # Pull new changes from the repository
-cd "$REPO_PATH"
+cd "/home/ctf/Oppgaver"
 git pull
 
-# Run the setup script to create/update the task index
-python3 "$SCRIPTS_PATH/setup.py"
-
 # Run the process tasks script
-python3 "$SCRIPTS_PATH/process_tasks.py"
+python3 "/home/ctf/Oppgaver/Scripts/process_tasks.py"
 
 # Commit and push changes with task names
 for notebook in "$REPO_PATH"/*/solution.ipynb; do

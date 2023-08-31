@@ -1,12 +1,12 @@
 {
     "/path/to/your/repository/Liste/Oppgave 1.1.1": {
-        "oppgave": "/path/to/your/repository/Liste/Oppgave 1.1.1/oppgave.md",
-        "solve": "/path/to/your/repository/Liste/Oppgave 1.1.1/solve.py",
-        "solution": "/path/to/your/repository/Liste/Oppgave 1.1.1/solution.ipynb"
+        "oppgave": "/home/ctf/Oppgaver/Grunnleggende-Programmering/Liste/Oppgave 1.1.1/README.md",
+        "solve": "/home/ctf/Oppgaver/Grunnleggende-Programmering/Liste/Oppgave 1.1.1/solve.py",
+        "solution": "/home/ctf/Oppgaver/Grunnleggende-Programmering/Liste/Oppgave 1.1.1/solution.ipynb"
     },
     "/path/to/your/repository/Løkker/Oppgave 1.1.1": {
-        "oppgave": "/path/to/your/repository/Løkker/Oppgave 1.1.1/oppgave.md",
-        "solve": "/path/to/your/repository/Løkker/Oppgave 1.1.1/solve.py",
-        "solution": "/path/to/your/repository/Løkker/Oppgave 1.1.1/solution.ipynb"
+        "oppgave": "/home/ctf/Oppgaver/Grunnleggende-Programmering/Liste/Oppgave 1.1.1/README.md",
+        "solve": "/home/ctf/Oppgaver/Grunnleggende-Programmering/Liste/Oppgave 1.1.1/solve.py",
+        "solution": "/home/ctf/Oppgaver/Grunnleggende-Programmering/Liste/Oppgave 1.1.1/solution.ipynb"
     }
 }

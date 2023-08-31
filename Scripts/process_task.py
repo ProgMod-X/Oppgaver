@@ -16,7 +16,7 @@ def generate_solution(prompt):
     return response.choices[0].text.strip()
 
 def process_task(task):
-    with open(task["oppgave"], "r") as oppgave_file:
+    with open(task["README"], "r") as oppgave_file:
         oppgave_text = oppgave_file.read()
 
     with open(task["solve"], "r") as solve_file:
