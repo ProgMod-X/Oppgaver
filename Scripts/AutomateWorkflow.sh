@@ -5,7 +5,7 @@ OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 
 # Path to your repository and scripts
 REPO_PATH="~/Oppgaver"
-SCRIPTS_PATH="~/Scripts"
+SCRIPTS_PATH="~/Oppgaver/Scripts"
 
 # Pull new changes from the repository
 cd "$REPO_PATH"
