@@ -28,13 +28,13 @@ def process_files(oppgave_path, solve_path):
     notebook.cells.append(nb.new_markdown_cell(prompt))
     notebook.cells.append(nb.new_markdown_cell(solution))
 
-    notebook_path = oppgave_path.replace("oppgave.md", "solution.ipynb")
+    notebook_path = oppgave_path.replace("REAMDE.md", "solution.ipynb")
     with open(notebook_path, "w") as notebook_file:
         nb.write(notebook, notebook_file)
 
 def main():
     oppgave_path = os.path.abspath(sys.argv[1])
-    solve_path = oppgave_path.replace("oppgave.md", "solve.py")
+    solve_path = oppgave_path.replace("README.md", "solve.py")
     process_files(oppgave_path, solve_path)
 
 if __name__ == "__main__":

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set up the repository
-git clone https://github.com/ProgMod-X/Oppgaver.git /path/to/your/repository
-cd /path/to/your/repository
+git clone https://github.com/ProgMod-X/Oppgaver.git ~/Oppgaver
+cd ~/Oppgaver
 
 # Set up the environment
 python3 -m venv venv
@@ -10,8 +10,8 @@ source venv/bin/activate
 pip install openai nbformat
 
 # Set up the script directory
-git clone https://github.com/ProgMod-X/Oppgaver.git /path/to/your/scripts
-cd /path/to/your/scripts
+git clone https://github.com/ProgMod-X/Oppgaver.git ~/Scripts
+cd ~/Scripts
 
 # Add execution permissions
 chmod +x AutomateWorkflow.sh
