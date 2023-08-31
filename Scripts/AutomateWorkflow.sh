@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Set your OpenAI API key
-OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+OPENAI_API_KEY="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"
 
 # Path to your repository and scripts
-REPO_PATH="~/Oppgaver"
-SCRIPTS_PATH="~/Oppgaver/Scripts"
+REPO_PATH="Oppgaver"
+SCRIPTS_PATH="Oppgaver/Scripts"
 
 # Pull new changes from the repository
 cd "$REPO_PATH"

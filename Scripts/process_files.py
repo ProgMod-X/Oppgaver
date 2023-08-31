@@ -3,7 +3,7 @@ import os
 from nbformat import v4 as nb
 
 # OpenAI API Key
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = "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"
 
 def generate_solution(prompt):
     response = openai.Completion.create(
