@@ -10,12 +10,14 @@ while i <= 10:
     i += 1
     
 print("------------------------------")    
+
 # Med en for-løkke kan vi gjøre dette med en innebygd variabel
 
 for i in range(11): # Merk at "in range" er eksklusiv, og inkluderer ikke det siste tallet, altså fungerer denne koden som "while i < 11:"
     print(i)
 
 print("------------------------------")  
+
 # I tillegg til å telle med en for-løkke, kan vi også gå gjennom en liste.
 
 # Her er en basic while-løkke som går gjennom en liste
@@ -27,6 +29,7 @@ while current_index < len(list):
     current_index += 1
     
 print("------------------------------")
+
 # Her er en basic for-løkke som går gjennom en liste
 list = ["Dette", "er", "en", "liste"]
 
