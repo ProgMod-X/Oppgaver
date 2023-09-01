@@ -1,0 +1,1 @@
+Algoritmen undersøker om de tre sidene som blir angitt danner en rettvinklet trekant, ved hjelp av pytagoras setningen.
