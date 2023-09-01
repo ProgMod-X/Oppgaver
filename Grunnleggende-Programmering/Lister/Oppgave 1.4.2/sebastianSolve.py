@@ -17,7 +17,7 @@ Max:    86
 ```
 '''
 import random 
-import statistics
+
 
 x = []
 
@@ -26,10 +26,11 @@ y = 100
 for i in range(y):
     x.append(random.randint(1,100))
 
+x.sort()
 
-a = min(x)
-b = max(x)
-c = statistics.mean(x)
+a = x[0]
+b = x[-1]
+c = (sum(x)/y)
 
-print(f"Verider: {x}\n Min: {a}\n Max: {b}\n Gjennomsnitt: {c}")
+print("Verider: ",x,"\n Gjennomsnitt: ",c,"\n Min: ",a,"\n Max: ", b ,"\n Gjennomsnitt: ",c)
 
