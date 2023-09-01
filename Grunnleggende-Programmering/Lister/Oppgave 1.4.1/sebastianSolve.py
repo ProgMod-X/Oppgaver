@@ -9,7 +9,7 @@ ______ er __ år gammel.
 
 navn_list = ["Seth", "Ruth", "Tale","Harald", "Haakon"]
 
-alder_list = ["17","13","19","86","50"]
+alder_list = ["17","14","19","86","50"]
 for x in range(5):
     print(f"{navn_list[x]} er {alder_list[x]} år gammel.")
 
