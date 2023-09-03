@@ -6,5 +6,9 @@ Lag et program der brukeren kan oppgi mengde protein, fett og karbohydrater, og 
 '''
 
 
+P,F,C = float(input("P: ")), float(input("F: ")),float(input("C: "))
+
 def kilojoule(P,F,C):
     return 17*P + 38*F + 17*C
+
+print("E =", round(kilojoule(P, F, C)),"kilojoules")
