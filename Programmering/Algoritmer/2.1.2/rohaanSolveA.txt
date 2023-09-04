@@ -1,0 +1,6 @@
+Jeg hadde funnet distansen mellom sentrum av sirkelen (S) og punktet (P).
+
+Deretter sjekker jeg om distansen (d) er større, lik, eller mindre enn den:
+    d < r, P ligger innenfor sirkelen
+    d = r, P ligger på sirkelen
+    d > r, P ligger utenfor sirkelen
