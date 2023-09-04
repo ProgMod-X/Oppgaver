@@ -1,0 +1,6 @@
+a = lengde, b = bredde
+
+lager et kvadrat basert på den minste av a eller b
+Bruker deretter arealet av a * b +% arealet av kvadratet, hvis svaret = 0 har man det største mulige kvadratet
+Hvis != 0, trekker man lengden av en av sidene til kvadratet fra a og b, og bruker rekursjon på 
+samme funksjon helt til svaret er funnet
