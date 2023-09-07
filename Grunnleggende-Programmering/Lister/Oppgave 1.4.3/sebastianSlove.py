@@ -8,3 +8,4 @@ num_list = [3, 4, 6, 6, 1, 3, 3]
 
 for x in range(len(num_list)):
     print(x,":","="*num_list[x])
+
