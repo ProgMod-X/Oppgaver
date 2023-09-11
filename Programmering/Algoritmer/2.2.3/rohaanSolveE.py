@@ -26,13 +26,13 @@ def game(operator, numbers):
         b = random.randint(1, difficulty)
         c = float(input(f"Hva er {a} {opr} {b}: "))
 
-        if (c == a + b and operator == 0) or operator == 4:
+        if (c == a + b and operator == 0) or (c == a + b and operator == 4):
             correct += 1
-        elif (c == a - b and operator == 1) or operator == 4:
+        elif (c == a - b and operator == 1) or (c == a + b and operator == 4):
             correct += 1
-        elif (c == a * b and operator == 2) or operator == 4:
+        elif (c == a * b and operator == 2) or (c == a + b and operator == 4):
             correct += 1
-        elif (c == round(a / b, 2) and operator == 3) or operator == 4:
+        elif (c == round(a / b, 2) and operator == 3) or (c == a + b and operator == 4):
             correct += 1
 
     return correct
@@ -40,10 +40,12 @@ def game(operator, numbers):
 correct = game(operator, n)
 
 if correct == n:
-    print("Perfekt")
+    print("Perfekt", end=" ")
 elif correct > n / 3 * 2:
-    print("Bra!")
+    print("Bra!", end=" ")
 elif correct <= n / 3 * 2 and correct >= n / 3:
-    print("Du trenger mer trening...")
+    print("Du trenger mer trening...", end=" ")
 else:
-    print("Spør mattelæreren din om hjelp!")
+    print("Spør mattelæreren din om hjelp!", end=" ")
+
+print(f"{correct/n*100}% correct")
