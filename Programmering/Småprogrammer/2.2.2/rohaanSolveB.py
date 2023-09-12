@@ -19,7 +19,7 @@ def triangle(x):
         print("")
 
 
-function = int(input("Hvilken funksjon vil du benytte?\nsquare(0), reactangle(1), triangle(2): "))
+function = int(input("Hvilken funksjon vil du benytte?\nsquare(0), rectangle(1), triangle(2): "))
 
 if function == 0:
     x = int(input("Hva er x? "))
