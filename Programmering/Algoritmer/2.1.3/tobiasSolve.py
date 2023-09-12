@@ -1,7 +1,11 @@
 # Algoritme som beskriver måten hanne vil løse probleme på:
 
 # Oppgir lengde på sidene i rektangelet
-# Mens 
+# Mens den minste sidelengden er større enn 0:
+#     Sett kvadrat-sidelengde til minste rektangel-sidelengde
+#     Mens minste rektangel-sidelengde er større enn kvadrat-sidelengde:
+#         Subtraher kvadrat-sidelengde fra rektangel-maks-sidelengde
+# print ut siste verdi av kvadrat-sidelengde
 
 
 
