@@ -1,6 +1,6 @@
 # Automatisert Løsningsgenerering med GPT-3
 
-Dette prosjektet automatiserer prosessen med å generere løsningsforslag for programmeringsoppgaver ved hjelp av GPT-3, et avansert AI språkmodell utviklet av OpenAI. Målet er å hjelpe lærere, studenter og utviklere med å generere detaljerte og forklarende løsningsforslag for ulike programmeringsoppgaver.
+Dette prosjektet automatiserer prosessen med å generere løsningsforslag for programmeringsoppgaver ved hjelp av GPT-3, en avansert AI språkmodell utviklet av OpenAI. Målet er å hjelpe lærere, studenter og utviklere med å generere detaljerte og forklarende løsningsforslag for ulike programmeringsoppgaver.
 
 ## Innhold
 
