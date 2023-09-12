@@ -1,0 +1,1 @@
+Lag en funksjon som tar en liste med tall som parameter og returnerer summen av tallene.
