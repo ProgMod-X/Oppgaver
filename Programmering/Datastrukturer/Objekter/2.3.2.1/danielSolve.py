@@ -6,25 +6,25 @@ class Contact:
         
 contacts = []
 
-while True:
-    print("\nVelkommen til kontaktene dine!\n")
-    print("Skriv ny for ny kontakt")
-    print("Skriv liste for å se kontaktene dine")
-    print("Skriv avslutt for å avslutte programmet")
+print("\nVelkommen til kontaktene dine!\n")
+print("Skriv ny for ny kontakt")
+print("Skriv liste for å se kontaktene dine")
+print("Skriv avslutt for å avslutte programmet\n")
 
-    svar = input("\n$ ")
+while True:
+    svar = input("$ ")
     
     if svar == "ny":
-        name = input("Skriv inn navn: ")
+        name = input("\nSkriv inn navn: ")
         tlf = input("Skriv inn telefonnummer: ")
         email = input("Skriv inn e-postadresse: ")
         ny_kontakt = Contact(name, tlf, email)
         contacts.append(ny_kontakt)
-        print("Kontakt er lagt til.")
+        print("\nKontakt er lagt til.\n")
     
     if svar == "liste":
         if len(contacts) == 0:
-            print("Ingen kontakter opprettet!")
+            print("\nIngen kontakter opprettet!\n")
         else:
             j = 0
             for i in contacts:
@@ -32,9 +32,10 @@ while True:
                     print("\nNavn:\tTelefonnummer:\tEpostadresse:") 
                 print(i.name,"\t",i.tlf,"\t",i.email)
                 j += 1
+            print("")
         
-        
-    if svar == "avslutt":
+    if svar == "avslutt" or svar == "exit":
+        print("\nAvslutter programmet!\n")
         break
-    else:
-        print("Skriv en gyldig kommando")
+    if svar == " ":
+        print("\n$ ")
