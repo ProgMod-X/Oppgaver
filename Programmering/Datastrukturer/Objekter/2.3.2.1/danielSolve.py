@@ -26,9 +26,12 @@ while True:
         if len(contacts) == 0:
             print("Ingen kontakter opprettet!")
         else:
-            print("Navn:\tTelefonnummer:\tEpostadresse:")
+            j = 0
             for i in contacts:
+                if j == 0:
+                    print("\nNavn:\tTelefonnummer:\tEpostadresse:") 
                 print(i.name,"\t",i.tlf,"\t",i.email)
+                j += 1
         
         
     if svar == "avslutt":
