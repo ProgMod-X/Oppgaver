@@ -1,41 +1,38 @@
 
 
-def square(a):
-    for x in range(a):
-        print("\t","*"*a)
-
-    return 
 
 
+def square(sidelengde):
+    streng = ""
+    for rad in range(1,sidelengde+1):
+        for kolonne in range(1,sidelengde+1):
+            streng += "*"
+        streng += "\n"
+        
 
-def rectangle(b,c):
-    for x in range(b):
-        print("\t ","*"*c)
-    return 
+    return streng
+print(square(8))
 
 
 
+def rectangle(sidelengde,toplengde):
+    streng = ""
+    for rad in range(1,sidelengde+1):
+        for kolonne in range(1,toplengde+1):
+            streng += "*"
+        streng += "\n"
+    return streng
 
-'''
+print(rectangle(4,5))
+
+
 def rtriangle(d):
-    x = 0
-    while x <= d:
-        print("*"*x)
-        x += 1
-    return 
-'''
+    streng = ""
+    for i in range(1,d+1):
+            streng += "*"*i
+            streng += "\n"
 
-def circle(e):
-    for i in range(-e,e+1):
-        for j in range(-e,e+1):
-            if i ** 2 + j ** 2 <= e**2:
-                print("*", end = " ")
-            else:
-                print(" ", end=" ")
-
-        print() 
-    return
-
+    return streng
 
 
 
@@ -46,9 +43,6 @@ def circle(e):
 #rektangel1,rektangel2 = int(input("Hvor lang vil du at den ene siden av rektangelet skal være? ")), int(input("Hvor stor vil du at den andre siden av rektangelet skal være? "))
 #sirkel = int(input("Hvor stor vil du at sirkelen skal være? "))
 #pyramide = int(input("pyramide: ")) 
-'''
-print(f"{rtriangle(trekant)}\{square(kvadratet)}\n\n\n{rectangle(rektangel1,rektangel2)}\n\n\n{circle(sirkel)}")
-'''
 
 
 
