@@ -1,0 +1,1 @@
+Implementer (skriv et program basert på) flytdiagrammet under.

@@ -1,0 +1,1 @@
+Bruk en while-løkke til å skrive ut alle heltall fra og med -7 til og med 7.s
