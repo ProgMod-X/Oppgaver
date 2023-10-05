@@ -7,9 +7,9 @@ def gcd(a, b):
 def lcm(a, b):
     return (a * b) // gcd(a, b)
 
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
+a = int(input("Skriv inn det første tallet: "))
+b = int(input("Skriv inn det siste tallet: "))
 
-result = a*b/lcm(a, b)
+resultat = a*b/lcm(a, b)
 
-print(f"The Least Common Multiple of {a} and {b} is {result}")
+print("Det minste felles multiplum av", a, "and", b, "er", resultat)
