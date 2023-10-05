@@ -23,7 +23,11 @@ table = [[1,2,3,4,5],
          [1,2,3,4,5],
          [1,2,3,4,5],]
 
-new_tab = null_fill_triangle(table, False)
+for row in table:
+    print(row)
 
-for row in new_tab:
+print("")
+
+new_table = null_fill_triangle(table, False)
+for row in new_table:
     print(row)
