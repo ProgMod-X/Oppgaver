@@ -1,4 +1,5 @@
-Lag funksjonen positive_diagonal() som returnerer antall positive elementer på hoveddiagonalen i en tabell av heltall med n kolonner og n rader.
+a) Skriv et program som genererer gangetabellen fra 0 til 12.
+gangetabell[3][5] skal ha verdien 15.
 
-
-Over ser du et eksempel på en slik tabell med n=4 og 2 positive elementer på hoveddiagonalen (i blått).
+b) Skriv et program som genererer en gangekube med tall fra 0 til 12
+gangekube[3][5][3] skal ha verdien 45.
