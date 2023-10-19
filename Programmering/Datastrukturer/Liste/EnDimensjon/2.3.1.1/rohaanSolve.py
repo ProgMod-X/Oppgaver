@@ -1,5 +1,5 @@
 def summarize(list):
-    if type(list) == "list":
+    if type(list) != "list":
         return
     
     sum = 0
