@@ -22,11 +22,11 @@ def fibonacci(n):
     
 
 start = time.time()
-print(fibonacci(100))
+print(fibonacci(40))
 end = time.time()
 print(f"Time to run: {end-start}")
 
 start = time.time()
-print(mfibonacci(100))
+print(mfibonacci(40))
 end = time.time()
 print(f"Time to run: {end-start}")
