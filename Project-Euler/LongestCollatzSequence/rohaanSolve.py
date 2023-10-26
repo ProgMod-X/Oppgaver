@@ -23,5 +23,5 @@ for i in range(1, 1000000):
     f(i)
     if count > longest[1]:
         longest = (i, count)
-        mem[i] = count
+    mem[i] = count
     print(f"{i}\t{count}\t{longest[0]}\t{longest[1]}\t{len(mem)}")
