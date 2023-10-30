@@ -1,0 +1,1 @@
+Tegn 500 tilfeldige linjer. Hver linje skal trekkes mellom to punkter, der x-verdien skal ligge i intervallet [0,320> og y-verdien skal ligge i intervallet [0,200>
