@@ -1,1 +1,0 @@
-Tegn 100 tilfeldige punkter, der både x- og y-verdiene ligger i intervallet [0,100>
