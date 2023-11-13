@@ -1,10 +1,9 @@
 checks = 0
-for i in range(1, 250000000):
-    for j in range(1, 21):
-        if i/j == int(i/j):
-            # print(f"{i}\t{j}")
+for i in range(20, 250000000, 20):
+    for j in range(1, 20):
+        if i % j == 0:
             checks += 1
-    if checks == 20:
+    if checks == 19:
         print("success", i)
         break
     else:
