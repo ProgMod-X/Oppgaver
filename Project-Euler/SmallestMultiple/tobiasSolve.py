@@ -1,10 +1,7 @@
-import time
-
 evenlyDivisible = False
 num = 20
 longestDivisible = []
 
-start = time.time()
 
 while evenlyDivisible == False:
     divisibleWith = []
@@ -19,7 +16,3 @@ while evenlyDivisible == False:
     if len(divisibleWith) == 19:
         evenlyDivisible = True
     num += 20
-    
-end = time.time()
-
-print(end-start)
