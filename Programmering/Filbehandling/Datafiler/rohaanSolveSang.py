@@ -1,0 +1,1 @@
+path = r"Programmering\Filbehandling\Datafiler\sang.txt"
