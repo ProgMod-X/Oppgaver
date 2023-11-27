@@ -30,5 +30,9 @@ while True:
                 print(contact.number)
                 print(contact.email)
                 print("--------------")
+    elif operation == "save":
+        open(r"Programmering\Filbehandling\2.8.2\tobiasRegister.csv", "w")
+        
+        
     elif operation == "quit":
         break
