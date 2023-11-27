@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random
 
 def main():
@@ -9,7 +10,6 @@ def main():
         action = int(input("What would you like to do? "))
         if action == 1:
             n = random.getrandbits(32)
-            break
             bet = int(input("How much do you want to bet? "))
             if bet < 30:
                 print("Sorry, but our minimum betting amount is 30 EPT coins")
