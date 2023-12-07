@@ -1,6 +1,6 @@
 import random
 
-wheel = [5, 10, "slutt"]
+wheel = ["slutt", 5, 10]
 N = 10000000
 sum_of_rewards = 0
 
