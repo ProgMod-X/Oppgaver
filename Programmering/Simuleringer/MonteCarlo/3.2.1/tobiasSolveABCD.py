@@ -24,7 +24,7 @@ for num in range(1,13):
     print(f"Value: {num:2.0f} | Probability: {round(sum/36, 3)}")
     dicelist2.append(round(sum/36, 3))
 
-plt.bar([(x-0.2) for x in x], dicelist, width=0.4, label="Estimated", color="blue")
-plt.bar([(x+0.2) for x in x], dicelist2, width=0.4, label="Analytical", color="red")
+plt.bar(x, dicelist, width=0.4, align="edge", label="Estimated", color="blue")
+plt.bar(x, dicelist2, width=-0.4, align="edge", label="Analytical", color="red")
 plt.legend()
 plt.show()
