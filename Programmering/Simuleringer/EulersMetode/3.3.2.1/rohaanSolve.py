@@ -5,6 +5,7 @@ import math
 
 a = 0
 b = 2 * math.pi
+
 n = 100
 dx = (b - a) / n
 z = 1
