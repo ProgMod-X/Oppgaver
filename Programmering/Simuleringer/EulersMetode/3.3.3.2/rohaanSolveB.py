@@ -7,13 +7,11 @@ def f(x):
 x = 0
 dx = 0.0001
 N = 25
-area = 0
 
 y_list = []
 x_list = []
 
 while x < N:
-    area += (f(x)*dx)
     y_list.append(f(x))
     x_list.append(x)
     x += dx
