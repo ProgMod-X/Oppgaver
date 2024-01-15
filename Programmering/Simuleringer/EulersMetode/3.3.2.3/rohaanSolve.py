@@ -34,7 +34,7 @@ while round(areal, 6) < 2:
 
     print(f"Arealet under grafen er {areal}")
 
-    k += 0.0001
+    k += 0.001
 
 print(f"For at flatestykket F skal ha et areal på 2 må k være {round(k, 5)}")
 
