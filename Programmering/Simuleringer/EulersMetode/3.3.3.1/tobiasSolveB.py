@@ -6,7 +6,7 @@ def f(t):
 
 t = 0
 T = 25
-dt = 1
+dt = 0.0001
 x_list = [t]
 y_list = [f(t)]
 
@@ -15,7 +15,7 @@ while y_list[-1] < 7000:
     y_list.append(f(t))
     t += dt
     
-print(f"Det er mer enn 7000 nye smittede hver uke etter {t-1} uker")
+print(f"Det er mer enn 7000 nye smittede hver uke etter {round(t,2)} uker")
 
 plt.plot(x_list, y_list)
 plt.grid()

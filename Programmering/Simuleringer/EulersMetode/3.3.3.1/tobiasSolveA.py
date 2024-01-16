@@ -6,7 +6,7 @@ def f(t):
 
 t = 0
 T = 25
-dt = 1
+dt = 0.001
 x_list = []
 y_list = []
 

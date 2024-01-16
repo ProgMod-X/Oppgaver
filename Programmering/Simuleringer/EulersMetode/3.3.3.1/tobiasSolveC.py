@@ -6,7 +6,7 @@ def f(t):
 
 t = 0
 T = 25
-dt = 1
+dt = 0.001
 
 x_list = [t]
 y_list = [f(t)]
@@ -15,10 +15,10 @@ sum = 0
 while sum < 15000:
     x_list.append(t)
     y_list.append(f(t))
-    sum += y_list[-1]
+    sum += y_list[-1] * dt
     t += dt
     
-print(f"Det er mer enn 15 000 smittede etter {t-1} uker")
+print(f"Det er mer enn 15 000 smittede etter {t} uker")
 
 plt.plot(x_list, y_list)
 plt.grid()
