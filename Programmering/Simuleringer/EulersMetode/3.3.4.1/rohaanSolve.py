@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 #     return 30000 * 1.01**x + 500 * x
 
 def f(saldo):
-    return saldo * 0.01 + 500
+    return saldo * 0.001 + 500
 
 N = 5 * 12
 
