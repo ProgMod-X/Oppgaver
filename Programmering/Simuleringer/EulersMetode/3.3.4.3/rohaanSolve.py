@@ -11,13 +11,13 @@ saldo = 0
 x_list = []
 y_list = []
 
-for i in range(1, 20):
+for i in range(1, 21):
     saldo += f(saldo, i)
     x_list.append(i)
     y_list.append(saldo)
     if i == 10:
         print(f"Verdien på Camillas aksjefond dør hun fylte 11 år var {saldo}")
-    elif i == 19:
+    elif i == 20:
         print(f"Verdien på Camillas aksjefond dør hun fylte 20 år var {saldo}")
 
 plt.plot(x_list, y_list)
