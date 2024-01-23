@@ -13,4 +13,4 @@ while kropp > maxKropp:
         kropp = f(kropp, factor)
     factor -= 0.00001
 
-print(f"Det må gå {round(factor/0.75*24 + 24)} timer mellom hver gang Mads tar en tablett")
+print(f"Det må gå {round(factor / 0.75 * 24 + 24)} timer mellom hver gang Mads tar en tablett")
