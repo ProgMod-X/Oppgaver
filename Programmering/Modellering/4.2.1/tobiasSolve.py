@@ -17,8 +17,12 @@ b = konstanter[1]
 
 print(f"f(x) = {round(a, 3)}* x^{round(b, 3)}")
 
+def t(x):
+    return 2*np.pi * (x/9.81)**0.5
+
 x = np.linspace(data_x[0], 10,  1000)
 
+plt.plot(x, t(x), color="g")
 plt.plot(x, f(x, a, b), color="r")
 plt.grid()
 plt.show()
