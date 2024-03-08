@@ -6,14 +6,14 @@ def f(x):
 
 dx = 0.01
 area = 0
-k = 1.01
+k = 1.001
 
-while area < 2:
+while round(area, 6) < 2:
     x = 1
     area = 0
-    k += 0.01
+    k += 0.001
     while x < k:
-        area += (f(x)*dx)
+        area += abs(((f(x)+f(x+dx))/2)*dx)
         x += dx
 
 print(round(area, 3))
