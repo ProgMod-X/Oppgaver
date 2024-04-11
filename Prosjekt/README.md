@@ -6,3 +6,4 @@
 - Mikro samfunn
 - Ant colony
 - Slime simulation
+- Fluid dynamics
